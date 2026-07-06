@@ -1,0 +1,18 @@
+Python当中的三元运算可以写出很简洁的代码。比如
+age = 20
+Status = "成年" if age >= 18 else "未成年"
+return status
+
+这是一个表达式而不是语句 因此可以直接作为函数的参数
+print("pass" if score >= 60 else "failed")
+
+
+Python的bool和其他语言也不同，在python中，任何对象都可以直接用于布尔判断，而不会严格要求传入一个true或者false。当其看到None时，会直接把它看成False。
+
+pythonic的写法：
+
+as for c#(请把这里整理成.md的代码模块)
+String result = !stirng,IsNullOrEmpty(name) ? Name : "anonymous"
+
+As for python
+Result = name or "anonymous" # 当name为真 直接name；当name为假，填入后者，相当于直接用None充当了布尔判断依据

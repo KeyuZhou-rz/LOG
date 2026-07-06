@@ -1,0 +1,4 @@
+前几日感冒 过了几遍nexus的优化工作，没有什么结构性的大调整
+今天继续进行后端调整 着重于learning progress的那几个部分
+后续往next.js的方向迁移
+Streamlit的渲染问题先不去管 agent的回答方式还是显得有些奇怪 得在思考一下qa_prompt中的prompt撰写方式是不是有问题 看看claude，codex是怎么编写提示词的呢？
